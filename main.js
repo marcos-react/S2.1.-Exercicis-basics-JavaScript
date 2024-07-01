@@ -42,3 +42,16 @@ class person {
  // The function has been checked and it works.
  //console.log(potConduir(19));
 
+ 
+ // Nivell 1 Exercici 2
+
+function compare(num1, num2){
+
+    return num1>num2 ? "num1 es mes gran":"num2 es mes gran";
+
+}
+
+// The function has been checked and it works.
+//console.log(compare(5,3));
+//console.log(compare(3,5));
+
