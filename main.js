@@ -76,3 +76,19 @@ function mostrarNombre(nombre){
 
 processar(1, mostrarNombre);
 
+
+// Nivell 1 Exercici 2
+
+
+function calculadora(nombre1,nombre2,callback)
+{
+    callback(nombre1,nombre2);
+}
+
+function mostrarSuma(nombre1,nombre2){
+
+    console.log(`${nombre1+nombre2}`);
+
+}
+
+calculadora(5,3,mostrarSuma);
