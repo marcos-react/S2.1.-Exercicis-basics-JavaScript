@@ -25,3 +25,20 @@ class person {
 //const Person = new person("marcos");
 
 //Person.greet();
+
+
+// Exercici 1.2: Operador ternari
+
+
+// Nivell 1 Exercici 1
+
+
+ function potConduir(edat){
+
+    return edat >= 18 ? "Pots conduir":"No pots conduir"; 
+
+ }
+
+ // The function has been checked and it works.
+ //console.log(potConduir(19));
+
