@@ -55,3 +55,24 @@ function compare(num1, num2){
 //console.log(compare(5,3));
 //console.log(compare(3,5));
 
+
+// Exercici 1.3: Callbacks
+
+// Nivell 1 Exercici 1
+
+function processar(nombre,callback){
+
+    callback(nombre);
+
+}
+
+function mostrarNombre(nombre){
+
+    console.log(`El nombre es: ${nombre}`);
+
+}
+
+//reference function
+
+processar(1, mostrarNombre);
+
