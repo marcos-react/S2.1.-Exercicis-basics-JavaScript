@@ -92,3 +92,21 @@ function mostrarSuma(nombre1,nombre2){
 }
 
 calculadora(5,3,mostrarSuma);
+
+
+// Exercici 1.4: Rest & Spread
+
+// Nivell 1 Exercici 1
+
+const array1 = [1,2,3];
+
+const array2 = [4,5,6];
+
+const array3 =[...array1,...array2]; //spread array
+
+//log.console(array3); It works
+
+
+
+
+
