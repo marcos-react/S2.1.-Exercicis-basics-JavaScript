@@ -186,5 +186,16 @@ for(let x of noms2){
 }
 
 
+// Nivell 1 Exercici 3
+
+let numeros = [1,2,3,4,5,6];
+
+const newarray5 = numeros.filter(checkParells); // previously used before
+
+//console.log(newarray5); // it works
+
+
+
+
 
  
