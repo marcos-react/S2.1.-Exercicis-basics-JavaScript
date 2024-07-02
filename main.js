@@ -128,3 +128,19 @@ const array4 = [1,2,3,4];
 const newarray = array4.map(numero => numero * numero);
 
 console.log(newarray);
+
+
+// Nivell 1 Exercici 2
+
+const array5 = [1,2,3,4];
+
+const newarray2 = array5.filter(checkParells);
+
+function checkParells(parell){
+
+    return ((parell % 2) == 0);
+
+}
+
+console.log(newarray2); // it works
+ 
