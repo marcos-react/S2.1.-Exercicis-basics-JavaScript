@@ -166,4 +166,17 @@ const newarray4 = array7.reduce((acumulador,actual) => acumulador + actual,0);
 //console.log(newarray4); // it works
 
 
+// Exercici 1.6: Array loops
+
+
+// Nivell 1 Exercici 1
+
+let noms = ['Anna','Bernat','Clara'];
+
+noms.forEach(element => {
+    console.log(element);
+});
+
+
+
  
