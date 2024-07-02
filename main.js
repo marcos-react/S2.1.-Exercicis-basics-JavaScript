@@ -157,6 +157,13 @@ function checkBigger10(check){
 
 //console.log(newarray3); // it works
 
+// Nivell 1 Exercici 4
+
+const array7 = [13,7,8,21];
+
+const newarray4 = array7.reduce((acumulador,actual) => acumulador + actual,0);
+
+//console.log(newarray4); // it works
 
 
  
