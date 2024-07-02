@@ -244,7 +244,26 @@ let promise2 = (input) => {
       console.error(error); // 'failed'
     });
   
+// Nivell 1 Exercici 4
 
+// use exercici 1
+
+  
+  async function asincrona() {
+    try {
+      // wait
+      let result = await promise;
+      // print
+      console.log(result);
+    } catch (error) {
+      // error
+      console.error(error);
+    }
+  }
+  
+  // Call asincronize function
+  asincrona();
+  
 
 
 
