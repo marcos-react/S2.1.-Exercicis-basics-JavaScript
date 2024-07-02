@@ -143,4 +143,20 @@ function checkParells(parell){
 }
 
 console.log(newarray2); // it works
+
+
+// Nivell 1 Exercici 3
+
+const array6 = [1,10,8,11];
+
+const newarray3 = array6.find(checkBigger10);
+
+function checkBigger10(check){
+    return (check > 10)
+}
+
+//console.log(newarray3); // it works
+
+
+
  
