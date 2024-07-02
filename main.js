@@ -207,6 +207,12 @@ let promise = new Promise (function(resolve, reject){
 
 });
 
+// Nivell 1 Exercici 2
+
+promise.then(missatge => {
+    console.log(missatge);
+});
+
 
 
 
