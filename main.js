@@ -118,3 +118,13 @@ function suma(...nombre){
 console.log(suma(1,2,3)); // 6
 console.log(suma(1,2,3,4,5)); //15
 
+
+// Exercici 1.5: Array transformations
+
+// Nivell 1 Exercici 1
+
+const array4 = [1,2,3,4];
+
+const newarray = array4.map(numero => numero * numero);
+
+console.log(newarray);
