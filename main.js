@@ -107,6 +107,14 @@ const array3 =[...array1,...array2]; //spread array
 //log.console(array3); It works
 
 
+// Nivell 1 Exercici 2
 
+function suma(...nombre){
 
+    return nombre.reduce((acumulador,actual) => acumulador + actual,0)    
+
+}
+
+console.log(suma(1,2,3)); // 6
+console.log(suma(1,2,3,4,5)); //15
 
