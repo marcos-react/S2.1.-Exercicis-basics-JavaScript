@@ -213,6 +213,41 @@ promise.then(missatge => {
     console.log(missatge);
 });
 
+// Nivell 1 Exercici 3
+
+let promise2 = (input) => {
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        if (input === "Hola") {
+          resolve("success");
+        } else {
+          reject("failed");
+        }
+      }, 2000);
+    });
+  };
+  
+  // Use the promise
+  promise2("Hola")
+    .then(missatge => {
+      console.log(missatge); // 'success'
+    })
+    .catch(error => {
+      console.error(error); // Not executed
+    });
+  
+  promise2("bye")
+    .then(missatge => {
+      console.log(missatge); // Not executed
+    })
+    .catch(error => {
+      console.error(error); // 'failed'
+    });
+  
+
+
+
+
 
 
 
