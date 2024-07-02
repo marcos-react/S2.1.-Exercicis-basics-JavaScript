@@ -195,6 +195,21 @@ const newarray5 = numeros.filter(checkParells); // previously used before
 //console.log(newarray5); // it works
 
 
+// Exercici 1.7: Promises & Async/Await
+
+// Nivell 1 Exercici 1
+
+let promise = new Promise (function(resolve, reject){
+
+    setTimeout(() => {
+        resolve("Hola, Món");
+      }, 2000);
+
+});
+
+
+
+
 
 
 
