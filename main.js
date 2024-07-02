@@ -177,6 +177,14 @@ noms.forEach(element => {
     console.log(element);
 });
 
+// Nivell 1 Exercici 2
+
+let noms2 = ['Anna','Bernat','Clara'];
+
+for(let x of noms2){
+    console.log(x);
+}
+
 
 
  
